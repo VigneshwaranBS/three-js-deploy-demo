@@ -77,7 +77,7 @@ let mixer;
 // 	document.querySelector('.overlay').style.display = 'none';
 // });
 
-LOADER.load( '/assets/facial_expressions.gltf', gltf => load_model(gltf));
+LOADER.load( 'facial_expressions.gltf', gltf => load_model(gltf));
 
 function load_model(gltf)
 {
